@@ -178,19 +178,19 @@ pnpm --filter @repo/db <command>      # Run a command in Database
 
 ## 🗺️ Roadmap
 
-### Phase 1: Foundations (✅ Current)
+### Phase 1: Foundations (✅ Done)
 
 - [x] Turborepo + pnpm workspaces setup
 - [x] NestJS backend + Prisma
 - [x] Next.js frontend
 - [x] Shared database package
 
-### Phase 2: UI/UX (🔜 Upcoming)
+### Phase 2: UI/UX (✅ Done)
 
 - [x] Tailwind CSS V4 integration
 - [x] shadcn/ui integration
 
-### Phase 3: Multi-platform (Planned)
+### Phase 3: Multi-platform (🔜 Upcoming)
 
 - [ ] Mobile app (React Native / Expo)
 - [ ] Desktop app (Electron / Tauri)
@@ -233,3 +233,4 @@ For questions or issues:
 ## Author
 
 - [Perret William](https://william-perret.fr)
+
