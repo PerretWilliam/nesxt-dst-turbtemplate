@@ -1,9 +1,9 @@
 {
-  "name": "@repo/db",
+  "name": "@workspace/db",
   "version": "1.0.0",
   "scripts": {
     "build": "tsup ./index.ts",
-    "postbuild": "cp -r generated/prisma dist/generated/prisma || true",
+    "postbuild": "mkdir -p dist/generated/prisma && cp -r generated/prisma dist/generated/prisma || true",
     "dev": "prisma generate && tsup ./index.ts --watch",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --skip-generate",
@@ -16,8 +16,8 @@
   "dependencies": {
     "@prisma/client": "^6.19.0",
     "@prisma/extension-accelerate": "^2.0.2",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
     "dotenv": "^17.2.3",
     "tsup": "^8.5.1"
   },

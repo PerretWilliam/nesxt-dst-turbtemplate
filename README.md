@@ -187,8 +187,8 @@ pnpm --filter @repo/db <command>      # Run a command in Database
 
 ### Phase 2: UI/UX (🔜 Upcoming)
 
-- [ ] Tailwind CSS V4 integration
-- [ ] shadcn/ui integration
+- [x] Tailwind CSS V4 integration
+- [x] shadcn/ui integration
 
 ### Phase 3: Multi-platform (Planned)
 
